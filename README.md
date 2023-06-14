@@ -12,7 +12,7 @@ function test_loading_optionset_widget() {
         target: document.getElementById("target"),
         props: {
             partnerId: "motion1",
-            key: "Yo9xaoxnftup48c1bEj0", // 발행된 optionset id
+            key: "OPTIONSET_ID", // 발행된 optionset id
             stateSnapshot: null, // 이 값이 있으면 해당 값으로 ui가 셋팅되어 표시됨.
             callback: callback,
         },
